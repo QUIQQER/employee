@@ -1,6 +1,8 @@
 QUIQQER - Employee - Mitarbeiter
 ========
 
+- Legt Mitarbeitergruppe an
+- Bestimmt allgemeine Mitarbeitergruppe
 
 Paketname:
 
@@ -28,5 +30,3 @@ dann können Sie gerne an support@pcsg.de eine E-Mail schreiben.
 
 Lizenz
 -------
-
-MIT

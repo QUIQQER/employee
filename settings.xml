@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiqqer>
+
+    <settings>
+        <config>
+            <section name="general">
+                <conf name="groupId">
+                    <type><![CDATA[integer]]></type>
+                </conf>
+                <conf name="advisorId">
+                    <type><![CDATA[integer]]></type>
+                </conf>
+            </section>
+        </config>
+
+        <window name="ERP">
+            <title>
+                <locale group="quiqqer/employee" var="window.erp.title"/>
+            </title>
+            <params>
+                <icon>fa fa-sun-o</icon>
+            </params>
+
+            <categories>
+                <category name="employee" index="5">
+                    <text>
+                        <locale group="quiqqer/employee" var="window.erp.employee.title"/>
+                    </text>
+                    <icon>fa fa-group</icon>
+
+                    <settings title="employee" name="employee">
+                        <title>
+                            <locale group="quiqqer/employee" var="employee.settings.title"/>
+                        </title>
+
+                        <input conf="general.groupId"
+                               data-qui="controls/groups/Select"
+                               data-qui-options-max="1"
+                        >
+                            <text>
+                                <locale group="quiqqer/employee" var="employee.settings.groupId"/>
+                            </text>
+                        </input>
+                        <input conf="general.advisorId"
+                               data-qui="controls/users/Select"
+                               data-qui-options-max="1"
+                        >
+                            <text>
+                                <locale group="quiqqer/employee" var="employee.settings.advisorId"/>
+                            </text>
+                        </input>
+
+                    </settings>
+                </category>
+            </categories>
+
+        </window>
+    </settings>
+
+</quiqqer>

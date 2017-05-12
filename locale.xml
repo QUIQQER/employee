@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locales>
+
+    <groups name="quiqqer/employee" datatype="php,js">
+        <locale name="package.title">
+            <de><![CDATA[QUIQQER - ERP - Mitarbeiter]]></de>
+            <en><![CDATA[QUIQQER - ERP - Employee]]></en>
+        </locale>
+
+        <locale name="window.erp.title">
+            <de><![CDATA[Shop]]></de>
+            <en><![CDATA[Shop]]></en>
+        </locale>
+        <locale name="window.erp.employee.title">
+            <de><![CDATA[Mitarbeiter]]></de>
+            <en><![CDATA[Employees]]></en>
+        </locale>
+        <locale name="window.erp.employee.title">
+            <de><![CDATA[Mitarbeiter]]></de>
+            <en><![CDATA[Employees]]></en>
+        </locale>
+        <locale name="employee.settings.title">
+            <de><![CDATA[Mitarbeiter]]></de>
+            <en><![CDATA[Employees]]></en>
+        </locale>
+        <locale name="employee.settings.groupId">
+            <de><![CDATA[Mitarbeitergruppe]]></de>
+            <en><![CDATA[Employees group]]></en>
+        </locale>
+        <locale name="employee.settings.advisorId">
+            <de><![CDATA[Standard Sachbearbeiter]]></de>
+            <en><![CDATA[Default advisor]]></en>
+        </locale>
+
+        <locale name="employee.group.name">
+            <de><![CDATA[Mitarbeiter]]></de>
+            <en><![CDATA[Employee]]></en>
+        </locale>
+
+        <locale name="exception.employee.group.not.exists">
+            <de><![CDATA[Mitarbeiter-Gruppe existiert nicht.]]></de>
+            <en><![CDATA[Employee group does not exist.]]></en>
+        </locale>
+    </groups>
+
+</locales>
