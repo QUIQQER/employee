@@ -41,7 +41,7 @@ class Employees extends Singleton
 
         $Package = QUI::getPackage('quiqqer/employee');
         $Config  = $Package->getConfig();
-        $groupId = $Config->getValue('general', 'groupId');
+        $groupId = $Config->getValue('employee', 'groupId');
 
         if (empty($groupId)) {
             throw new Exception(array(
@@ -68,7 +68,7 @@ class Employees extends Singleton
 
         $Package   = QUI::getPackage('quiqqer/employee');
         $Config    = $Package->getConfig();
-        $advisorId = $Config->getValue('general', 'advisorId');
+        $advisorId = $Config->getValue('employee', 'advisorId');
 
         if (empty($advisorId)) {
             $this->Advisor = false;

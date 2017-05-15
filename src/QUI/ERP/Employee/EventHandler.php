@@ -30,7 +30,7 @@ class EventHandler
 
         // create customer group
         $Config  = $Package->getConfig();
-        $groupId = $Config->getValue('general', 'groupId');
+        $groupId = $Config->getValue('employee', 'groupId');
 
         if (!empty($groupId)) {
             return;
@@ -43,7 +43,23 @@ class EventHandler
             QUI::getUsers()->getSystemUser()
         );
 
-        $Config->setValue('general', 'groupId', $Customer->getId());
+        $Config->setValue('employee', 'groupId', $Customer->getId());
         $Config->save();
+    }
+
+    /**
+     * event : on admin header loaded
+     */
+    public static function onAdminLoadFooter()
+    {
+        if (!defined('ADMIN') || !ADMIN) {
+            return;
+        }
+
+        $Package = QUI::getPackageManager()->getInstalledPackage('quiqqer/employee');
+        $Config  = $Package->getConfig();
+        $groupId = $Config->getValue('employee', 'groupId');
+
+        echo '<script>var QUIQQER_EMPLOYEE_GROUP = ' . $groupId . '</script>';
     }
 }
