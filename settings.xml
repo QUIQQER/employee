@@ -26,7 +26,7 @@
                     <text>
                         <locale group="quiqqer/employee" var="window.erp.employee.title"/>
                     </text>
-                    <icon>fa fa-group</icon>
+                    <icon>fa fa-address-book-o</icon>
 
                     <settings title="employee" name="employee">
                         <title>
