@@ -1,0 +1,102 @@
+.quiqqer-employee-administration {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+/** header / search / filter
+ =============================== */
+
+.quiqqer-employee-administration-search {
+    background: #e1e4e9;
+    clear: both;
+    padding: 20px;
+    width: 100%;
+}
+
+.quiqqer-employee-administration-search [name="employee-search"] {
+    float: left;
+    width: calc(100% - 100px);
+}
+
+.quiqqer-employee-administration-search [name="add"] {
+    margin-right: 10px;
+}
+
+.quiqqer-employee-administration-search [name="filter"] {
+    display: inline-block;
+    float: initial;
+    margin-left: 10px;
+}
+
+.quiqqer-employee-administration-search [name="search"] {
+    float: left;
+    width: 280px;
+}
+
+.quiqqer-employee-administration-search [name="submit"] {
+    border: none;
+}
+
+.quiqqer-employee-administration-search-filter {
+    background: #eff0f3;
+    clear: both;
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.quiqqer-employee-administration-search-filter section {
+    display: inline-block;
+    width: 100%;
+}
+
+.quiqqer-employee-administration-search-filter input {
+    padding: 2px;
+    font-size: 12px;
+}
+
+.quiqqer-employee-administration-search-filter .title {
+    display: inline-block;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.quiqqer-employee-administration-search-filter section + section {
+    margin-top: 20px;
+}
+
+.quiqqer-employee-administration-search-filter-checks label {
+    float: left;
+    width: 25%;
+}
+
+.quiqqer-employee-administration-search-filter-specs label {
+    float: left;
+    width: 25%;
+}
+
+/** grid / result
+ =============================== */
+
+.quiqqer-employee-administration-grid {
+    clear: both;
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 20px;
+    width: 100%;
+}
+
+/** employee panel in grid
+ =============================== */
+
+.quiqqer-employee-administration-employee {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}

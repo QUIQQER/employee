@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+
+    <item parent="/apps/"
+          name="employee"
+          require="package/quiqqer/employee/bin/backend/controls/AdministrationPanel"
+          icon="fa fa-id-badge"
+          permission="quiqqer.employee.view"
+    >
+        <locale group="quiqqer/employee" var="menu.erp.employee.title"/>
+    </item>
+
+</menu>

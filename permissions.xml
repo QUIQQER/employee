@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+
+    <permission name="quiqqer.employee.create" type="bool">
+        <defaultvalue>1</defaultvalue>
+    </permission>
+    <permission name="quiqqer.employee.edit" type="bool">
+        <defaultvalue>1</defaultvalue>
+    </permission>
+    <permission name="quiqqer.employee.view" type="bool">
+        <defaultvalue>1</defaultvalue>
+    </permission>
+    <permission name="quiqqer.employee.editComments" type="bool">
+        <defaultvalue>1</defaultvalue>
+    </permission>
+
+    <permission name="quiqqer.employee.fileEdit" type="bool">
+        <defaultvalue>1</defaultvalue>
+    </permission>
+    <permission name="quiqqer.employee.fileView" type="bool">
+        <defaultvalue>1</defaultvalue>
+    </permission>
+    <permission name="quiqqer.employee.fileUpload" type="bool">
+        <defaultvalue>1</defaultvalue>
+    </permission>
+
+</permissions>

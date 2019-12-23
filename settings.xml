@@ -10,6 +10,10 @@
                 <conf name="advisorId">
                     <type><![CDATA[integer]]></type>
                 </conf>
+                <conf name="employeeLogin">
+                    <type>integer</type>
+                    <defaultValue>1</defaultValue>
+                </conf>
             </section>
         </config>
 
@@ -41,6 +45,16 @@
                                 <locale group="quiqqer/employee" var="employee.settings.groupId"/>
                             </text>
                         </input>
+
+                        <input conf="employee.customerLogin" type="checkbox">
+                            <text>
+                                <locale group="quiqqer/employee" var="employee.settings.customerLogin"/>
+                            </text>
+                            <description>
+                                <locale group="quiqqer/employee" var="employee.settings.customerLogin.description"/>
+                            </description>
+                        </input>
+
                         <input conf="general.advisorId"
                                data-qui="controls/users/Select"
                                data-qui-options-max="1"

@@ -18,7 +18,7 @@ class EventHandler
 {
     /**
      * event: on package setup
-     * - create customer group
+     * - create employee group
      *
      * @param Package $Package
      */
@@ -28,7 +28,7 @@ class EventHandler
             return;
         }
 
-        // create customer group
+        // create employee group
         $Config  = $Package->getConfig();
         $groupId = $Config->getValue('general', 'groupId');
 
@@ -38,12 +38,12 @@ class EventHandler
 
         $Root = QUI::getGroups()->firstChild();
 
-        $Customer = $Root->createChild(
+        $Employee = $Root->createChild(
             QUI::getLocale()->get('quiqqer/employee', 'employee.group.name'),
             QUI::getUsers()->getSystemUser()
         );
 
-        $Config->setValue('general', 'groupId', $Customer->getId());
+        $Config->setValue('general', 'groupId', $Employee->getId());
         $Config->save();
     }
 }
