@@ -43,4 +43,15 @@
         </locale>
     </groups>
 
+    <groups name="quiqqer/employee" datatype="php">
+        <locale name="menu.erp.employee.title">
+            <de><![CDATA[Mitarbeiter]]></de>
+            <en><![CDATA[Employee]]></en>
+        </locale>
+    </groups>
+
+    <groups name="quiqqer/employee" datatype="js">
+
+    </groups>
+
 </locales>

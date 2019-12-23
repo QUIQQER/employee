@@ -1,0 +1,28 @@
+/** categories
+ =================================================== */
+
+.quiqqer-employee-create-employee-categories {
+    float: left;
+    padding-right: 20px;
+    width: 200px;
+}
+
+.quiqqer-employee-create-employee-categories button {
+    border-bottom: 1px solid #999999;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: left;
+    width: 100%;
+}
+
+.quiqqer-employee-create-employee-categories button:last-child {
+    border-bottom: none;
+}
+
+/** content
+ =================================================== */
+
+.quiqqer-employee-create-employee-content {
+    float: left;
+    width: calc(100% - 200px);
+}
