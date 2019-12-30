@@ -41,6 +41,11 @@
             <de><![CDATA[Mitarbeiter-Gruppe existiert nicht.]]></de>
             <en><![CDATA[Employee group does not exist.]]></en>
         </locale>
+
+        <locale name="employeeId">
+            <de><![CDATA[Mitarbeiter ID]]></de>
+            <en><![CDATA[Employee ID]]></en>
+        </locale>
     </groups>
 
     <groups name="quiqqer/employee" datatype="php">
@@ -51,6 +56,118 @@
     </groups>
 
     <groups name="quiqqer/employee" datatype="js">
+        <locale name="window.employee.creation.title">
+            <de><![CDATA[Neuen Mitarbeiter anlegen]]></de>
+            <en><![CDATA[Create new employee]]></en>
+        </locale>
+        <locale name="window.employee.creation.next">
+            <de><![CDATA[Weiter]]></de>
+            <en><![CDATA[Next]]></en>
+        </locale>
+        <locale name="window.employee.creation.prev">
+            <de><![CDATA[Zurück]]></de>
+            <en><![CDATA[Previous]]></en>
+        </locale>
+        <locale name="window.employee.creation.next">
+            <de><![CDATA[Weiter]]></de>
+            <en><![CDATA[Next]]></en>
+        </locale>
+        <locale name="window.employee.creation.submit">
+            <de><![CDATA[Mitarbeiter anlegen]]></de>
+            <en><![CDATA[Employee customer]]></en>
+        </locale>
+
+        <locale name="window.employee.creation.dataHeader.title">
+            <de><![CDATA[Mitarbeiter Daten]]></de>
+            <en><![CDATA[Employee data]]></en>
+        </locale>
+        <locale name="window.employee.creation.dataHeader.text" html="true">
+            <de><![CDATA[
+            Alle Daten des Mitarbeiters können auch später geändert werden.
+            ]]></de>
+            <en><![CDATA[
+            All employee data can also be changed later.
+            ]]></en>
+        </locale>
+
+        <locale name="window.employee.creation.groups.title">
+            <de><![CDATA[Mitarbeitergruppen]]></de>
+            <en><![CDATA[Employee group]]></en>
+        </locale>
+        <locale name="window.employee.creation.groups.text" html="true">
+            <de><![CDATA[
+            Einem Mitarbeiter können mehrere Mitarbeitergruppen zugeordnet werden.
+            Der Mitarbeiter wird jedoch automatisch in die Haupt-Mitarbeitergruppen hinzugefügt.
+            ]]></de>
+            <en><![CDATA[
+            Several employee groups can be assigned to one employee.
+            However, the employee is automatically added to the main employee groups.
+            ]]></en>
+        </locale>
+
+        <locale name="window.employee.creation.next">
+            <de><![CDATA[Weiter]]></de>
+            <en><![CDATA[Next]]></en>
+        </locale>
+        <locale name="window.employee.creation.previous">
+            <de><![CDATA[Zurück]]></de>
+            <en><![CDATA[Previous]]></en>
+        </locale>
+        <locale name="window.employee.creation.create">
+            <de><![CDATA[Mitarbeiter anlegen]]></de>
+            <en><![CDATA[Create employee]]></en>
+        </locale>
+        <locale name="window.employee.creation.group">
+            <de><![CDATA[Mitarbeitergruppe]]></de>
+            <en><![CDATA[Employee group]]></en>
+        </locale>
+        <locale name="window.employee.creation.groups">
+            <de><![CDATA[Nutzergruppen]]></de>
+            <en><![CDATA[User groups]]></en>
+        </locale>
+
+        <locale name="control.users.select.search.field.placeholder">
+            <de><![CDATA[Mitarbeiter suchen...]]></de>
+            <en><![CDATA[Search employee...]]></en>
+        </locale>
+        <locale name="window.employee.select.title">
+            <de><![CDATA[Mitarbeiter]]></de>
+            <en><![CDATA[Employee]]></en>
+        </locale>
+        <locale name="panel.search.placeholder">
+            <de><![CDATA[Mitarbeiter durchsuchen...]]></de>
+            <en><![CDATA[Search employee...]]></en>
+        </locale>
+        <locale name="panel.search.switch.employee.group">
+            <de><![CDATA[Nur die Mitarbeitergruppe durchsuchen]]></de>
+            <en><![CDATA[Search the employee group only]]></en>
+        </locale>
+
+        <locale name="window.employee.select.title">
+            <de><![CDATA[Mitarbeiterauswahl]]></de>
+            <en><![CDATA[Cmployee selection]]></en>
+        </locale>
+        <locale name="window.employee.select.button">
+            <de><![CDATA[Mitarbeiter übernehmen]]></de>
+            <en><![CDATA[Select employee]]></en>
+        </locale>
+
+        <locale name="employee.window.delete.title">
+            <de><![CDATA[Mitarbeiter löschen]]></de>
+            <en><![CDATA[Delete employee]]></en>
+        </locale>
+        <locale name="employee.window.delete.text">
+            <de><![CDATA[Möchtest du den Mitarbeiter wirklich löschen?]]></de>
+            <en><![CDATA[Do you really want to delete the employee?]]></en>
+        </locale>
+        <locale name="employee.window.delete.information">
+            <de><![CDATA[
+                Der Mitarbeiter / Benutzer wird unwiderruflich gelöscht und kann nicht wieder hergestellt werden.
+            ]]></de>
+            <en><![CDATA[
+            The employee / user is irrevocably deleted and cannot be restored.
+            ]]></en>
+        </locale>
 
     </groups>
 

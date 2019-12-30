@@ -166,7 +166,7 @@ define('package/quiqqer/employee/bin/backend/controls/Administration', [
 
             columnModel.push({
                 header   : QUILocale.get(lg, 'employeeId'),
-                dataIndex: 'employeeId',
+                dataIndex: 'id',
                 dataType : 'integer',
                 width    : 100
             });
@@ -232,7 +232,7 @@ define('package/quiqqer/employee/bin/backend/controls/Administration', [
                 buttons: [{
                     name     : 'add',
                     textimage: 'fa fa-plus',
-                    text     : QUILocale.get(lg, 'employee.window.create.title'),
+                    text     : QUILocale.get(lg, 'window.employee.creation.title'),
                     events   : {
                         onClick: self.openAddWindow
                     }
