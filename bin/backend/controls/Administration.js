@@ -694,7 +694,7 @@ define('package/quiqqer/employee/bin/backend/controls/Administration', [
 
             var rowData = this.$Grid.getDataByRow(data.row);
 
-            if (data.cell.get('data-index') === 'employeeId' || data.cell.get('data-index') === 'regdate') {
+            if (data.cell.get('data-index') === 'id' || data.cell.get('data-index') === 'regdate') {
                 this.$openEmployee(rowData.id);
                 return;
             }

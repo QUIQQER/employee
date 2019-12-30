@@ -1,0 +1,20 @@
+.quiqqer-employee-panel .qui-panel-buttons .qui-button-switch {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.quiqqer-employee-panel .qui-panel-buttons .qui-button-switch-switch {
+    padding-top: 17px;
+}
+
+.quiqqer-employee-address-add {
+    padding-top: 0 !important;
+}
+
+.quiqqer-employee-address-add > div {
+    justify-content: flex-end;
+}
+
+.quiqqer-employee-address-select [name="address-country"] {
+    width: 30%;
+}
