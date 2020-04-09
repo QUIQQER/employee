@@ -30,7 +30,7 @@ class EventHandler
 
         // create employee group
         $Config  = $Package->getConfig();
-        $groupId = $Config->getValue('employee', 'groupId');
+        $groupId = $Config->getValue('general', 'groupId');
 
         if (!empty($groupId)) {
             return;
@@ -58,7 +58,11 @@ class EventHandler
 
         $Package = QUI::getPackageManager()->getInstalledPackage('quiqqer/employee');
         $Config  = $Package->getConfig();
-        $groupId = $Config->getValue('employee', 'groupId');
+        $groupId = $Config->getValue('general', 'groupId');
+
+        if (!$groupId) {
+            $groupId = 0;
+        }
 
         echo '<script>var QUIQQER_EMPLOYEE_GROUP = '.$groupId.'</script>';
     }
