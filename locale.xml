@@ -46,6 +46,39 @@
             <de><![CDATA[Mitarbeiter ID]]></de>
             <en><![CDATA[Employee ID]]></en>
         </locale>
+
+        <locale name="permission.quiqqer.employee._header">
+            <de><![CDATA[Mitarbeiter]]></de>
+            <en><![CDATA[Employee]]></en>
+        </locale>
+        <locale name="permission.quiqqer.employee.fileUpload">
+            <de><![CDATA[Darf Dateien hochladen]]></de>
+            <en><![CDATA[Is allowed to upload files]]></en>
+        </locale>
+        <locale name="permission.quiqqer.employee.fileView">
+            <de><![CDATA[Darf Dateien sehen]]></de>
+            <en><![CDATA[Is allowed to view files]]></en>
+        </locale>
+        <locale name="permission.quiqqer.employee.fileEdit">
+            <de><![CDATA[Darf Dateien bearbeiten]]></de>
+            <en><![CDATA[Is allowed to edit files]]></en>
+        </locale>
+        <locale name="permission.quiqqer.employee.editComments">
+            <de><![CDATA[Darf Kommentare bearbeiten]]></de>
+            <en><![CDATA[Is allowed to edit comments]]></en>
+        </locale>
+        <locale name="permission.quiqqer.employee.view">
+            <de><![CDATA[Darf Mitarbeiter aufrufen / sehen]]></de>
+            <en><![CDATA[Is allowed to view employees]]></en>
+        </locale>
+        <locale name="permission.quiqqer.employee.edit">
+            <de><![CDATA[Darf Mitarbeiter bearbeiten]]></de>
+            <en><![CDATA[Is allowed to edit employees]]></en>
+        </locale>
+        <locale name="permission.quiqqer.employee.create">
+            <de><![CDATA[Darf Mitarbeiter anlegen]]></de>
+            <en><![CDATA[Is allowed to create employees]]></en>
+        </locale>
     </groups>
 
     <groups name="quiqqer/employee" datatype="php">
