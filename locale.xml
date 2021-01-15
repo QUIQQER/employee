@@ -31,6 +31,18 @@
             <de><![CDATA[Standard Sachbearbeiter]]></de>
             <en><![CDATA[Default advisor]]></en>
         </locale>
+        <locale name="employee.settings.employeeLogin">
+            <de><![CDATA[Mitarbeiter-Login]]></de>
+            <en><![CDATA[Employee login]]></en>
+        </locale>
+        <locale name="employee.settings.employeeLogin.description">
+            <de><![CDATA[
+            Mitarbeiter dürfen sich am System anmelden. Wenn der Mitarbeiter aktiv ist, kann er sich somit am System einloggen.
+            ]]></de>
+            <en><![CDATA[
+            Employees may log on to the system. If the employee is active, he or she can log on to the system.
+            ]]></en>
+        </locale>
 
         <locale name="employee.group.name">
             <de><![CDATA[Mitarbeiter]]></de>

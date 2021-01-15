@@ -46,12 +46,12 @@
                             </text>
                         </input>
 
-                        <input conf="employee.customerLogin" type="checkbox">
+                        <input conf="employee.employeeLogin" type="checkbox">
                             <text>
-                                <locale group="quiqqer/employee" var="employee.settings.customerLogin"/>
+                                <locale group="quiqqer/employee" var="employee.settings.employeeLogin"/>
                             </text>
                             <description>
-                                <locale group="quiqqer/employee" var="employee.settings.customerLogin.description"/>
+                                <locale group="quiqqer/employee" var="employee.settings.employeeLogin.description"/>
                             </description>
                         </input>
 
