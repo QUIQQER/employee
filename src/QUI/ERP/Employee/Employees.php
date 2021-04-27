@@ -147,8 +147,6 @@ class Employees extends Singleton
      * Return the default advisor, if an advisor is set
      *
      * @return null|QUI\Interfaces\Users\User
-     *
-     * @throws QUI\Exception
      */
     public function getDefaultAdvisor()
     {
@@ -156,9 +154,15 @@ class Employees extends Singleton
             return $this->Advisor ? $this->Advisor : null;
         }
 
-        $Package   = QUI::getPackage('quiqqer/employee');
-        $Config    = $Package->getConfig();
-        $advisorId = $Config->getValue('employee', 'advisorId');
+        try {
+            $Package   = QUI::getPackage('quiqqer/employee');
+            $Config    = $Package->getConfig();
+            $advisorId = $Config->getValue('employee', 'advisorId');
+        } catch (QUI\Exception $Exception) {
+            QUI\System\Log::addError($Exception->getMessage());
+
+            return null;
+        }
 
         if (empty($advisorId)) {
             $this->Advisor = false;
